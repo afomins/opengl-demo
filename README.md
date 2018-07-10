@@ -9,6 +9,7 @@ This is non-interactive Win32 OpenGL demo written in `C++`. It was a coursework 
 | Vertex | Lines |
 | --|--|
 | <img src="https://github.com/afomins/opengl-demo/blob/master/gifs/ogl_000.gif" width="315"> | <img src="https://github.com/afomins/opengl-demo/blob/master/gifs/ogl_001.gif" width="315"> |
+
 | 3x3 cubes | Circle of cubes |
 | --|--|
 | <img src="https://github.com/afomins/opengl-demo/blob/master/gifs/ogl_002.gif" width="315"> | <img src="https://github.com/afomins/opengl-demo/blob/master/gifs/ogl_003.gif" width="315"> |
