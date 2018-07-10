@@ -1,5 +1,5 @@
 # Intro
-This is non-interactive Win32 OpenGL demo written in `C++`. It was coursework for CG class at university back at 2003. It has absolutely no value and I'm keeping it here only for sentimental reasons.
+This is non-interactive Win32 OpenGL demo written in `C++`. It was a coursework for **CG class** at university back at 2003. It has absolutely no value and I'm keeping it here only for sentimental reasons.
 
 # Downloads
 *"OpenGL-demo"* `v0.1.0` binaries:
