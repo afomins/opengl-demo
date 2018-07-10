@@ -1,0 +1,110 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+r_wnd_about DIALOGEX 0, 0, 131, 54
+STYLE WS_POPUP | WS_BORDER
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "ok",r_about_button_ok,5,40,122,12,NOT WS_TABSTOP
+    LTEXT           "prg",r_about_text_prg_label,6,4,19,10,SS_SUNKEN
+    LTEXT           "dev",r_about_text_dev_label,6,16,19,10,SS_SUNKEN
+    LTEXT           "ver",r_about_text_ver_label,6,27,19,10,SS_SUNKEN
+    LTEXT           "PRG",r_about_text_prg,27,4,100,10,SS_SUNKEN
+    LTEXT           "DEV",r_about_text_dev,27,16,100,10,SS_SUNKEN
+    LTEXT           "VER",r_about_text_ver,27,27,100,10,SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+r_menu_main MENU DISCARDABLE 
+BEGIN
+    POPUP "screen"
+    BEGIN
+        MENUITEM "640x480",                     r_menu_main_screen_640
+        , CHECKED
+        MENUITEM "800x600",                     r_menu_main_screen_800
+        MENUITEM "1024x768",                    r_menu_main_screen_1024
+        MENUITEM SEPARATOR
+        MENUITEM "16bpp",                       r_menu_main_screen_16bpp
+        MENUITEM "32bpp",                       r_menu_main_screen_32bpp
+        , CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "fullscreen",                  r_menu_main_screen_fullscreen
+
+    END
+    MENUITEM "begin",                       r_menu_main_begin
+    MENUITEM "about",                       r_menu_main_about
+    MENUITEM "quit",                        r_menu_main_quit
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
